@@ -1,4 +1,4 @@
-WITH source_reviews AS(
+WITH source_reviews AS (
     SELECT * FROM {{ ref("src_reviews") }}
 )
 
